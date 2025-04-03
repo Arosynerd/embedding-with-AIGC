@@ -1,0 +1,10 @@
+freertoswatch\icon_weather_yu.o: ..\icon\icon_weather_yu.c
+freertoswatch\icon_weather_yu.o: C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h
+freertoswatch\icon_weather_yu.o: .\RTE\_freertosWatch\RTE_Components.h
+freertoswatch\icon_weather_yu.o: ../Drivers/CMSIS/Include/core_cm3.h
+freertoswatch\icon_weather_yu.o: D:\KeilSTM32\ARM\ARMCC\Bin\..\include\stdint.h
+freertoswatch\icon_weather_yu.o: ../Drivers/CMSIS/Include/cmsis_version.h
+freertoswatch\icon_weather_yu.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+freertoswatch\icon_weather_yu.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+freertoswatch\icon_weather_yu.o: C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h
+freertoswatch\icon_weather_yu.o: ../Core/Inc/stimage.h

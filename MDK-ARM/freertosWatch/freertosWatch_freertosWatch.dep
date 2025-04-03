@@ -1,0 +1,1876 @@
+Dependencies for Project 'freertosWatch', Target 'freertosWatch': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32f103xe.s)(0x67EB9801)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xe.lst --xref -o freertoswatch\startup_stm32f103xe.o --depend freertoswatch\startup_stm32f103xe.d)
+F (..\Core\Src\st7735.c)(0x67EA1D2E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\st7735.o --omf_browse freertoswatch\st7735.crf --depend freertoswatch\st7735.d)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+F (..\Core\Src\fonts.c)(0x67EA230D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\fonts.o --omf_browse freertoswatch\fonts.crf --depend freertoswatch\fonts.d)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\Core\Src\shareFunctions.c)(0x67EE5568)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\sharefunctions.o --omf_browse freertoswatch\sharefunctions.crf --depend freertoswatch\sharefunctions.d)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/tim.h)(0x67EB93E4)
+F (../Core/Src/main.c)(0x67EBDD39)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\main.o --omf_browse freertoswatch\main.crf --depend freertoswatch\main.d)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/i2c.h)(0x67E8ED66)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/tim.h)(0x67EB93E4)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/gpio.h)(0x67DD686B)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (../Hardware/inc/MPU6050.h)(0x67E8F758)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+F (../Core/Src/gpio.c)(0x67E947FA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\gpio.o --omf_browse freertoswatch\gpio.crf --depend freertoswatch\gpio.d)
+I (../Core/Inc/gpio.h)(0x67DD686B)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/freertos.c)(0x67EE3C62)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\freertos.o --omf_browse freertoswatch\freertos.crf --depend freertoswatch\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (../Mytask/inc/gameTask.h)(0x67EA096C)
+I (../Mytask/inc/task2.h)(0x67E93B05)
+I (../Mytask/inc/task3.h)(0x67E61221)
+I (../Mytask/inc/showTaskInfo.h)(0x67E60240)
+I (../Mytask/inc/alarmConfigTask.h)(0x67E9513D)
+I (../Mytask/inc/otherTasks.h)(0x67EB8E01)
+I (../Mytask/inc/settingTask.h)(0x67E95434)
+I (../Core/Inc/tim.h)(0x67EB93E4)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+F (../Core/Src/i2c.c)(0x67E8ED66)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\i2c.o --omf_browse freertoswatch\i2c.crf --depend freertoswatch\i2c.d)
+I (../Core/Inc/i2c.h)(0x67E8ED66)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/rtc.c)(0x67E8CBB5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\rtc.o --omf_browse freertoswatch\rtc.crf --depend freertoswatch\rtc.d)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/spi.c)(0x67E4F66C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\spi.o --omf_browse freertoswatch\spi.crf --depend freertoswatch\spi.d)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/tim.c)(0x67EBC859)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\tim.o --omf_browse freertoswatch\tim.crf --depend freertoswatch\tim.d)
+I (../Core/Inc/tim.h)(0x67EB93E4)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/usart.c)(0x67E4C9F2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\usart.o --omf_browse freertoswatch\usart.crf --depend freertoswatch\usart.d)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (../Core/Src/stm32f1xx_it.c)(0x67E8C650)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_it.o --omf_browse freertoswatch\stm32f1xx_it.crf --depend freertoswatch\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_it.h)(0x67E8BF2E)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x67E4C9F3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_msp.o --omf_browse freertoswatch\stm32f1xx_hal_msp.crf --depend freertoswatch\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x67E4C9F3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_timebase_tim.o --omf_browse freertoswatch\stm32f1xx_hal_timebase_tim.crf --depend freertoswatch\stm32f1xx_hal_timebase_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (..\Hardware\src\MPU6050.c)(0x67E8F801)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\mpu6050.o --omf_browse freertoswatch\mpu6050.crf --depend freertoswatch\mpu6050.d)
+I (../Hardware/inc/MPU6050.h)(0x67E8F758)
+I (../Core/Inc/i2c.h)(0x67E8ED66)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_gpio_ex.o --omf_browse freertoswatch\stm32f1xx_hal_gpio_ex.crf --depend freertoswatch\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_tim.o --omf_browse freertoswatch\stm32f1xx_hal_tim.crf --depend freertoswatch\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_tim_ex.o --omf_browse freertoswatch\stm32f1xx_hal_tim_ex.crf --depend freertoswatch\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal.o --omf_browse freertoswatch\stm32f1xx_hal.crf --depend freertoswatch\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_rcc.o --omf_browse freertoswatch\stm32f1xx_hal_rcc.crf --depend freertoswatch\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_rcc_ex.o --omf_browse freertoswatch\stm32f1xx_hal_rcc_ex.crf --depend freertoswatch\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_gpio.o --omf_browse freertoswatch\stm32f1xx_hal_gpio.crf --depend freertoswatch\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_dma.o --omf_browse freertoswatch\stm32f1xx_hal_dma.crf --depend freertoswatch\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_cortex.o --omf_browse freertoswatch\stm32f1xx_hal_cortex.crf --depend freertoswatch\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_pwr.o --omf_browse freertoswatch\stm32f1xx_hal_pwr.crf --depend freertoswatch\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_flash.o --omf_browse freertoswatch\stm32f1xx_hal_flash.crf --depend freertoswatch\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_flash_ex.o --omf_browse freertoswatch\stm32f1xx_hal_flash_ex.crf --depend freertoswatch\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_exti.o --omf_browse freertoswatch\stm32f1xx_hal_exti.crf --depend freertoswatch\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_i2c.o --omf_browse freertoswatch\stm32f1xx_hal_i2c.crf --depend freertoswatch\stm32f1xx_hal_i2c.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_rtc.o --omf_browse freertoswatch\stm32f1xx_hal_rtc.crf --depend freertoswatch\stm32f1xx_hal_rtc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_rtc_ex.o --omf_browse freertoswatch\stm32f1xx_hal_rtc_ex.crf --depend freertoswatch\stm32f1xx_hal_rtc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_spi.o --omf_browse freertoswatch\stm32f1xx_hal_spi.crf --depend freertoswatch\stm32f1xx_hal_spi.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stm32f1xx_hal_uart.o --omf_browse freertoswatch\stm32f1xx_hal_uart.crf --depend freertoswatch\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Core/Src/system_stm32f1xx.c)(0x6725DEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\system_stm32f1xx.o --omf_browse freertoswatch\system_stm32f1xx.crf --depend freertoswatch\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\croutine.o --omf_browse freertoswatch\croutine.crf --depend freertoswatch\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\event_groups.o --omf_browse freertoswatch\event_groups.crf --depend freertoswatch\event_groups.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\list.o --omf_browse freertoswatch\list.crf --depend freertoswatch\list.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\queue.o --omf_browse freertoswatch\queue.crf --depend freertoswatch\queue.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\stream_buffer.o --omf_browse freertoswatch\stream_buffer.crf --depend freertoswatch\stream_buffer.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\tasks.o --omf_browse freertoswatch\tasks.crf --depend freertoswatch\tasks.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\timers.o --omf_browse freertoswatch\timers.crf --depend freertoswatch\timers.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\cmsis_os.o --omf_browse freertoswatch\cmsis_os.crf --depend freertoswatch\cmsis_os.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\heap_4.o --omf_browse freertoswatch\heap_4.crf --depend freertoswatch\heap_4.d)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x6725DEEC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\port.o --omf_browse freertoswatch\port.crf --depend freertoswatch\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+F (..\Mytask\src\showTaskInfo.c)(0x67E7F717)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\showtaskinfo.o --omf_browse freertoswatch\showtaskinfo.crf --depend freertoswatch\showtaskinfo.d)
+I (../Mytask/inc/showTaskInfo.h)(0x67E60240)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\Mytask\src\task1.c)(0x67EBD2A7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\task1.o --omf_browse freertoswatch\task1.crf --depend freertoswatch\task1.d)
+I (../Mytask/inc/gameTask.h)(0x67EA096C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+F (..\Mytask\src\task2.c)(0x67EE3885)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\task2.o --omf_browse freertoswatch\task2.crf --depend freertoswatch\task2.d)
+I (../Mytask/inc/task2.h)(0x67E93B05)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+F (..\Mytask\src\task3.c)(0x67EE4DE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\task3.o --omf_browse freertoswatch\task3.crf --depend freertoswatch\task3.d)
+I (../Mytask/inc/task3.h)(0x67E61221)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/stimage.h)(0x67E7A784)
+F (..\Mytask\src\alarmConfigTask.c)(0x67EE54E8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\alarmconfigtask.o --omf_browse freertoswatch\alarmconfigtask.crf --depend freertoswatch\alarmconfigtask.d)
+I (../Mytask/inc/alarmConfigTask.h)(0x67E9513D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/ST7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+F (..\Mytask\src\counterTask.c)(0x67E95EDD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\countertask.o --omf_browse freertoswatch\countertask.crf --depend freertoswatch\countertask.d)
+I (../Mytask/inc/counterTask.h)(0x67E95417)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\Mytask\src\settingTask.c)(0x67EBF8AA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\settingtask.o --omf_browse freertoswatch\settingtask.crf --depend freertoswatch\settingtask.d)
+I (../Mytask/inc/settingTask.h)(0x67E95434)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+I (../Core/Inc/st7735.h)(0x67EA1D1C)
+I (../Core/Inc/spi.h)(0x67E4F66C)
+I (../Core/Inc/fonts.h)(0x67EA22E7)
+F (..\Mytask\src\otherTasks.c)(0x67EBF677)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\othertasks.o --omf_browse freertoswatch\othertasks.crf --depend freertoswatch\othertasks.d)
+I (../Mytask/inc/otherTasks.h)(0x67EB8E01)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/tim.h)(0x67EB93E4)
+I (../Core/Inc/shareFunctions.h)(0x67EE4D97)
+I (../Core/Inc/rtc.h)(0x67E4C9F2)
+F (..\Mytask\src\screenTask.c)(0x67E95EB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\screentask.o --omf_browse freertoswatch\screentask.crf --depend freertoswatch\screentask.d)
+I (../Mytask/inc/screenTask.h)(0x67E95E93)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6725DEEC)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67E7B05A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6725DEEC)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6725DEEC)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6725DEEC)
+I (../Core/Inc/usart.h)(0x67E4C9F2)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\icon\icon_weather_duoyun.c)(0x67E7B83A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\icon_weather_duoyun.o --omf_browse freertoswatch\icon_weather_duoyun.crf --depend freertoswatch\icon_weather_duoyun.d)
+I (../Core/Inc/main.h)(0x67E94D0F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6725DEEB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x67E8ED69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6725DEEB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6725DEEB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6725DEEB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6725DEEB)
+I (../Core/Inc/stimage.h)(0x67E7A784)
+F (..\icon\icon_weather_feng.c)(0x67E7A784)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\icon_weather_feng.o --omf_browse freertoswatch\icon_weather_feng.crf --depend freertoswatch\icon_weather_feng.d)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD795E)
+I (.\RTE\_freertosWatch\RTE_Components.h)(0x67E4C9FE)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (../Core/Inc/stimage.h)(0x67E7A784)
+F (..\icon\icon_weather_qing.c)(0x67E7A784)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\icon_weather_qing.o --omf_browse freertoswatch\icon_weather_qing.crf --depend freertoswatch\icon_weather_qing.d)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD795E)
+I (.\RTE\_freertosWatch\RTE_Components.h)(0x67E4C9FE)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (../Core/Inc/stimage.h)(0x67E7A784)
+F (..\icon\icon_weather_xue.c)(0x67E7A784)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\icon_weather_xue.o --omf_browse freertoswatch\icon_weather_xue.crf --depend freertoswatch\icon_weather_xue.d)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD795E)
+I (.\RTE\_freertosWatch\RTE_Components.h)(0x67E4C9FE)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (../Core/Inc/stimage.h)(0x67E7A784)
+F (..\icon\icon_weather_yin.c)(0x67E7A784)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\icon_weather_yin.o --omf_browse freertoswatch\icon_weather_yin.crf --depend freertoswatch\icon_weather_yin.d)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD795E)
+I (.\RTE\_freertosWatch\RTE_Components.h)(0x67E4C9FE)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (../Core/Inc/stimage.h)(0x67E7A784)
+F (..\icon\icon_weather_yu.c)(0x67E7A784)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Mytask/inc -I ../Hardware/inc-I.\RTE\_freertosWatch-IC:\Users\17444\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o freertoswatch\icon_weather_yu.o --omf_browse freertoswatch\icon_weather_yu.crf --depend freertoswatch\icon_weather_yu.d)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD795E)
+I (.\RTE\_freertosWatch\RTE_Components.h)(0x67E4C9FE)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6725DEAB)
+I (D:\KeilSTM32\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6725DEAB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6725DEAB)
+I (C:\Users\17444\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD795E)
+I (../Core/Inc/stimage.h)(0x67E7A784)

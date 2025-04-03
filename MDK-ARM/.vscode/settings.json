@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "usart.h": "c",
+        "main.h": "c",
+        "gpio.h": "c",
+        "st7735.h": "c",
+        "task2.h": "c",
+        "stimage.h": "c",
+        "cmsis_os.h": "c",
+        "string": "c",
+        "fonts.h": "c",
+        "rtc.h": "c",
+        "mpu6050.h": "c",
+        "i2c.h": "c",
+        "deque": "c",
+        "memory": "c",
+        "vector": "c",
+        "task.h": "c",
+        "task1.h": "c",
+        "alarmconfigtask.h": "c",
+        "countertask.h": "c",
+        "freertos.h": "c",
+        "settingtask.h": "c",
+        "sharefunctions.h": "c",
+        "algorithm": "c",
+        "othertasks.h": "c",
+        "tim.h": "c"
+    }
+}
